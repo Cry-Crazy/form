@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 50px;    
+}
+form{
+    background-color: rgba(89, 89, 89, 0.213);
+    width: 350px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+.first, .middle, .last{
+    display: flex;
+    width:350px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+span{
+    display: inline-block;
+    color: rgb(61, 79, 148);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
